@@ -1,4 +1,4 @@
-$targetDir = "D:\Project\fw1ost\wav"
+$targetDir = "D:\Project\fw_ost\wav"
 
 Get-ChildItem -Path $targetDir -Filter *.wav | ForEach-Object {
     $filePath = $_.FullName
